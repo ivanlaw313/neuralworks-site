@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DestinyAI — BaZi Fortune App</title>
+<meta name="description" content="Chinese Four Pillars BaZi destiny chart, daily fortune scoring, traditional almanac, decade luck cycles, and Moon Block oracle. Available on iPhone and iPad.">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0D0D0F; color: #e8e0cc; line-height: 1.7; }
+  a { color: #C9A84C; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Hero */
+  .hero { text-align: center; padding: 80px 20px 60px; background: linear-gradient(160deg, #1A0A00 0%, #0D0D0F 50%, #000A1A 100%); }
+  .hero-icon { width: 120px; height: 120px; border-radius: 26px; margin-bottom: 24px; box-shadow: 0 8px 32px rgba(201,168,76,0.3); }
+  .hero h1 { font-size: 42px; font-weight: 700; color: #C9A84C; letter-spacing: -0.5px; }
+  .hero .tagline { font-size: 20px; color: #a89060; margin: 12px 0 32px; }
+  .badge { display: inline-block; background: #1a1a20; border: 1px solid #333; color: #C9A84C; padding: 14px 28px; border-radius: 14px; font-size: 17px; font-weight: 600; margin: 8px; transition: background 0.2s; }
+  .badge:hover { background: #2a2a30; text-decoration: none; }
+  .badge span { font-size: 13px; display: block; color: #888; font-weight: 400; }
+
+  /* Features */
+  .features { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
+  .features h2 { text-align: center; font-size: 28px; color: #C9A84C; margin-bottom: 40px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+  .card { background: #14141a; border: 1px solid #2a2a35; border-radius: 16px; padding: 24px; }
+  .card .icon { font-size: 32px; margin-bottom: 12px; }
+  .card h3 { font-size: 17px; color: #C9A84C; margin-bottom: 8px; }
+  .card p { font-size: 14px; color: #9a9080; }
+
+  /* Languages */
+  .langs { text-align: center; padding: 40px 20px; background: #0a0a10; }
+  .langs p { color: #888; font-size: 15px; margin-bottom: 12px; }
+  .lang-pill { display: inline-block; background: #1a1a22; border: 1px solid #2a2a38; border-radius: 20px; padding: 6px 16px; margin: 4px; font-size: 14px; color: #b8a878; }
+
+  /* Footer */
+  footer { text-align: center; padding: 40px 20px; border-top: 1px solid #1a1a20; font-size: 13px; color: #444; }
+  footer a { color: #666; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div style="width:120px;height:120px;border-radius:26px;margin:0 auto 24px;background:linear-gradient(135deg,#8B1A1A,#C9A84C);display:flex;align-items:center;justify-content:center;font-size:60px;box-shadow:0 8px 32px rgba(201,168,76,0.3);">☯</div>
+  <h1>命盤・AI靈犀</h1>
+  <p class="tagline">BaZi Four Pillars · Daily Fortune · Traditional Oracle</p>
+  <a class="badge" href="https://apps.apple.com/app/id0000000000">
+    Download on the App Store
+    <span>Free · iPhone &amp; iPad</span>
+  </a>
+</div>
+
+<div class="features">
+  <h2>Features</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="icon">🔯</div>
+      <h3>Four Pillars BaZi Chart</h3>
+      <p>Generate your Year, Month, Day, and Hour pillars from birth date &amp; time. View Heavenly Stems, Earthly Branches, Five Elements balance, and special stars.</p>
+    </div>
+    <div class="card">
+      <div class="icon">☀️</div>
+      <h3>Daily Fortune Score</h3>
+      <p>Today's pillar cross-referenced with your chart produces a 0–100 fortune score, lucky hours, favorable elements, and suggested colors.</p>
+    </div>
+    <div class="card">
+      <div class="icon">📅</div>
+      <h3>Traditional Almanac</h3>
+      <p>Daily almanac using the Jianchu 12-star system with auspicious and inauspicious activities in classic format.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🌊</div>
+      <h3>Decade &amp; Annual Luck</h3>
+      <p>Automatic 10-year luck cycles and annual forecasts with Ten Gods analysis for career, wealth, love, and health.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🌙</div>
+      <h3>Moon Block Oracle</h3>
+      <p>Shake or tap to cast traditional crescent moon blocks. Receive Holy, Yin, or Laughing results with detailed interpretations.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🌐</div>
+      <h3>7 Languages</h3>
+      <p>Full support for Traditional Chinese, Simplified Chinese, English, Japanese, Korean, French, and Spanish with auto system-language detection.</p>
+    </div>
+  </div>
+</div>
+
+<div class="langs">
+  <p>Available in</p>
+  <span class="lang-pill">🇭🇰 繁體中文</span>
+  <span class="lang-pill">🇨🇳 简体中文</span>
+  <span class="lang-pill">🇺🇸 English</span>
+  <span class="lang-pill">🇯🇵 日本語</span>
+  <span class="lang-pill">🇰🇷 한국어</span>
+  <span class="lang-pill">🇫🇷 Français</span>
+  <span class="lang-pill">🇪🇸 Español</span>
+</div>
+
+<footer>
+  &copy; 2026 Neuralworks &nbsp;·&nbsp;
+  <a href="/privacy">Privacy Policy</a> &nbsp;·&nbsp;
+  <a href="/support">Support</a> &nbsp;·&nbsp;
+  <a href="mailto:support@neuralworks.app">support@neuralworks.app</a>
+</footer>
+
+</body>
+</html>
